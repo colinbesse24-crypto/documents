@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device" version="24.7.17" vars="{&quot;projet&quot;:&quot;Parking silo&quot;,&quot;date&quot;:&quot;28.09.2026&quot;,&quot;volume_cuve&quot;:&quot;15&quot;,&quot;surface_saul&quot;:&quot;190&quot;,&quot;porosite_saul&quot;:&quot;94&quot;,&quot;hauteur_totale&quot;:&quot;1,10&quot;,&quot;couverture&quot;:&quot;60&quot;,&quot;couche_bas&quot;:&quot;30&quot;,&quot;couche_milieu&quot;:&quot;50&quot;,&quot;couche_haut&quot;:&quot;30&quot;,&quot;hauteur_superieure&quot;:&quot;80&quot;,&quot;debit_rejet&quot;:&quot;10&quot;,&quot;debit_infiltration&quot;:&quot;1,58&quot;,&quot;debit_total&quot;:&quot;11,58&quot;,&quot;volume_courant&quot;:&quot;50&quot;,&quot;volume_modere&quot;:&quot;151,3&quot;,&quot;volume_requis&quot;:&quot;201,3&quot;,&quot;volume_geometrique&quot;:&quot;196,5&quot;,&quot;ecart_volume&quot;:&quot;4,8&quot;}">
+  <diagram id="synoptique-ep" name="Gestion EP">
+    <mxGraphModel dx="1123" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1123" pageHeight="794" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="GESTION DES EAUX PLUVIALES" style="text;html=1;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#18354D;fontSize=26;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="58" y="48" width="1000" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="%projet%  |  Synoptique technique de principe" style="text;html=1;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#516878;fontSize=15;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="58" y="91" width="900" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="header_rule" value="" style="shape=line;strokeColor=#C7D6DF;strokeWidth=1;endArrow=none;" vertex="1" parent="1">
+          <mxGeometry x="58" y="122" width="1017" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="runoff" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EAF4FA;strokeColor=#2477A8;strokeWidth=1.7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="58" y="174" width="248" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="runoff_title" value="EAUX PLUVIALES" style="text;html=1;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#18354D;fontSize=17;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="runoff">
+          <mxGeometry x="18" y="18" width="216" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="runoff_body" value="Toiture et voiries du parking&lt;br&gt;Voiries du RDC et extérieures" style="text;html=1;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#18354D;fontSize=14;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="runoff">
+          <mxGeometry x="18" y="53" width="220" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="runoff_foot" value="Collecte des ruissellements" style="text;html=1;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#516878;fontSize=12;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="runoff">
+          <mxGeometry x="18" y="123" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="separator" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2477A8;strokeWidth=1.7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="188" width="191" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_title" value="SÉPARATEUR&lt;br&gt;À HYDROCARBURES" style="text;html=1;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#18354D;fontSize=15;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="separator">
+          <mxGeometry x="9" y="30" width="173" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="separator_body" value="Prétraitement des EP" style="text;html=1;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#516878;fontSize=12;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="separator">
+          <mxGeometry x="8" y="98" width="175" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="basin" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2477A8;strokeWidth=1.7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="596" y="156" width="281" height="256" as="geometry" />
+        </mxCell>
+        <mxCell id="basin_title" value="BASSIN DE RÉTENTION SAUL" style="text;html=1;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#18354D;fontSize=16;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="basin">
+          <mxGeometry x="20" y="12" width="252" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="basin_metrics" value="%surface_saul% m²  |  %porosite_saul% % de vide  |  h = %hauteur_totale% m" style="text;html=1;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#516878;fontSize=12;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="basin">
+          <mxGeometry x="20" y="51" width="254" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="basin_cover" value="Couverture ≥ %couverture% cm sous voirie" style="text;html=1;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#516878;fontSize=11;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="basin">
+          <mxGeometry x="20" y="77" width="252" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="basin_upper" value="" style="rounded=1;arcSize=8;fillColor=#EAF4FA;strokeColor=#C7D6DF;strokeWidth=1.5;" vertex="1" parent="basin">
+          <mxGeometry x="16" y="105" width="249" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="basin_upper_title" value="COUCHE SUPÉRIEURE : %hauteur_superieure% cm" style="text;html=1;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#18354D;fontSize=13;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="basin_upper">
+          <mxGeometry x="12" y="11" width="228" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="basin_upper_split" value="%couche_milieu% cm + %couche_haut% cm" style="text;html=1;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#18354D;fontSize=12;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="basin_upper">
+          <mxGeometry x="12" y="36" width="225" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="basin_upper_body" value="Pluies modérées à fortes" style="text;html=1;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#516878;fontSize=11;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="basin_upper">
+          <mxGeometry x="12" y="58" width="225" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="basin_lower" value="" style="rounded=1;arcSize=8;fillColor=#E5F4F0;strokeColor=#16857F;strokeWidth=1.5;" vertex="1" parent="basin">
+          <mxGeometry x="16" y="196" width="249" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="basin_lower_title" value="COUCHE INFÉRIEURE : %couche_bas% cm" style="text;html=1;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#18354D;fontSize=12;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="basin_lower">
+          <mxGeometry x="12" y="5" width="228" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="basin_lower_body" value="Pluies courantes - infiltration" style="text;html=1;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#516878;fontSize=11;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="basin_lower">
+          <mxGeometry x="12" y="27" width="226" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="regulator" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#18354D;strokeWidth=1.7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="927" y="172" width="148" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="regulator_title" value="OUVRAGE DE&lt;br&gt;RÉGULATION" style="text;html=1;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#18354D;fontSize=14;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="regulator">
+          <mxGeometry x="10" y="18" width="128" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="regulator_flow" value="Ajutage %debit_rejet% l/s" style="text;html=1;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#18354D;fontSize=13;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="regulator">
+          <mxGeometry x="6" y="75" width="136" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="regulator_overflow" value="Surverse" style="text;html=1;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#516878;fontSize=12;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="regulator">
+          <mxGeometry x="7" y="103" width="134" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="regulator_invert" value="Radier au-dessus&lt;br&gt;des %couche_bas% cm inférieurs" style="text;html=1;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#516878;fontSize=10;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="regulator">
+          <mxGeometry x="7" y="128" width="134" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="network" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#18354D;strokeWidth=1.7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="927" y="394" width="148" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="network_title" value="RÉSEAU EP&lt;br&gt;EXISTANT" style="text;html=1;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#18354D;fontSize=16;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="network">
+          <mxGeometry x="7" y="28" width="134" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pv_runoff" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EAF4FA;strokeColor=#2477A8;strokeWidth=1.7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="58" y="444" width="248" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="pv_title" value="DESCENTES EP" style="text;html=1;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#18354D;fontSize=17;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="pv_runoff">
+          <mxGeometry x="18" y="17" width="218" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="pv_body" value="des panneaux solaires&lt;br&gt;en toiture" style="text;html=1;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#18354D;fontSize=14;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="pv_runoff">
+          <mxGeometry x="18" y="52" width="217" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="tank" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2477A8;strokeWidth=1.7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="444" width="191" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="tank_title" value="CUVE DE RÉCUPÉRATION" style="text;html=1;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#18354D;fontSize=12;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="tank">
+          <mxGeometry x="7" y="22" width="177" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="tank_volume" value="%volume_cuve% m³" style="text;html=1;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#2477A8;fontSize=25;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="tank">
+          <mxGeometry x="9" y="51" width="173" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="tank_overflow" value="Trop-plein vers le SAUL" style="text;html=1;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#516878;fontSize=11;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="tank">
+          <mxGeometry x="8" y="94" width="175" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="soil" value="INFILTRATION&lt;br&gt;DANS LE SOL" style="text;html=1;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#16857F;fontSize=13;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="646" y="456" width="181" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="calculation_note" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF8EB;strokeColor=#DFBD8C;strokeWidth=1.7;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="58" y="588" width="1017" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="note_title" value="DONNÉES DE CALCUL ET VÉRIFICATION" style="text;html=1;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#A16011;fontSize=14;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="calculation_note">
+          <mxGeometry x="19" y="10" width="970" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="note_volume" value="Besoin annoncé : %volume_requis% m³ (%volume_courant% m³ de pluies courantes + %volume_modere% m³ de pluies modérées à fortes)." style="text;html=1;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#18354D;fontSize=11;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="calculation_note">
+          <mxGeometry x="19" y="38" width="965" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="note_discharge" value="Débit total retenu : %debit_rejet% l/s régulés + %debit_infiltration% l/s infiltrés = %debit_total% l/s." style="text;html=1;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#18354D;fontSize=11;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="calculation_note">
+          <mxGeometry x="19" y="60" width="965" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="note_check" value="Volume statique : %volume_geometrique% m³ ; écart de %ecart_volume% m³. Recalculer ces valeurs si les hypothèses changent." style="text;html=1;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#18354D;fontSize=11;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="calculation_note">
+          <mxGeometry x="19" y="83" width="970" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="footer_rule" value="" style="shape=line;strokeColor=#C7D6DF;strokeWidth=1;endArrow=none;" vertex="1" parent="1">
+          <mxGeometry x="58" y="733" width="1017" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="footer_text" value="Schéma de principe - implantation et raccordements à confirmer sur les plans d'exécution." style="text;html=1;whiteSpace=wrap;overflow=fill;align=left;verticalAlign=middle;fontFamily=Arial;fontColor=#516878;fontSize=10;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="58" y="742" width="891" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="footer_date" value="%date%" style="text;html=1;whiteSpace=wrap;overflow=fill;align=right;verticalAlign=middle;fontFamily=Arial;fontColor=#516878;fontSize=10;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;placeholders=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="967" y="742" width="108" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_runoff_separator" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#2477A8;strokeWidth=2.8;startArrow=none;endArrow=block;endFill=1;endSize=8;jettySize=auto;orthogonalLoop=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="runoff" target="separator">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_separator_basin" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#2477A8;strokeWidth=2.8;startArrow=none;endArrow=block;endFill=1;endSize=8;jettySize=auto;orthogonalLoop=1;exitX=1;exitY=0.5;entryX=0;entryY=0.37;" edge="1" parent="1" source="separator" target="basin">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_basin_regulator" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#2477A8;strokeWidth=2.8;startArrow=none;endArrow=block;endFill=1;endSize=8;jettySize=auto;orthogonalLoop=1;exitX=1;exitY=0.37;entryX=0;entryY=0.47;" edge="1" parent="1" source="basin" target="regulator">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_regulator_network" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#18354D;strokeWidth=2.8;startArrow=none;endArrow=block;endFill=1;endSize=8;jettySize=auto;orthogonalLoop=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="regulator" target="network">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_pv_tank" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#2477A8;strokeWidth=2.8;startArrow=none;endArrow=block;endFill=1;endSize=8;jettySize=auto;orthogonalLoop=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="pv_runoff" target="tank">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_tank_basin" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#2477A8;strokeWidth=2.8;startArrow=none;endArrow=block;endFill=1;endSize=8;jettySize=auto;orthogonalLoop=1;exitX=1;exitY=0.5;entryX=0;entryY=0.68;" edge="1" parent="1" source="tank" target="basin">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="568" y="506" />
+              <mxPoint x="568" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_basin_infiltration" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#16857F;strokeWidth=2.8;startArrow=none;endArrow=block;endFill=1;endSize=8;jettySize=auto;orthogonalLoop=1;dashed=1;dashPattern=6 3;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="basin" target="soil">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
